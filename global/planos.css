@@ -21,7 +21,15 @@
 .planos-menu {
   border-radius: 20px;
   background: #fff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  transition: all 0.5s;
+}
+.planos-menu:hover {
+  transform: scale(1.05);
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+}
+.planos-menu:active {
+  transform: scale(0.95) rotateZ(1.7deg);
 }
 .planos-menu h3 {
   background-color: var(--cor-cinza);
