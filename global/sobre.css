@@ -9,6 +9,9 @@ main {
   padding: 64px 64px;
   margin-bottom: 100px;
 }
+.sobre-texto a:hover {
+  background: #687b97;
+}
 .sobre-texto {
   max-width: 55ch;
 }
