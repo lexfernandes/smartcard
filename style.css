@@ -1,0 +1,24 @@
+/* cores */
+@import "./compontens/colors.css";
+
+/* butões */
+
+@import "./compontens/btn.css";
+
+/*Global e resets*/
+@import "./global/global.css";
+
+/* header */
+@import "./global/header.css";
+
+/*Sobre o site*/
+@import "./global/sobre.css";
+
+/*Cards*/
+@import "./global/cards.css";
+
+/*Planos cards*/
+@import "./global/planos.css";
+
+/* Footer da página */
+@import "./global/footer.css";

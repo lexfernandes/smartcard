@@ -1,0 +1,63 @@
+.menu-bg {
+  background-color: #001927;
+  border-radius: 0px 0px 20px 20px;
+}
+.logo img {
+  max-width: 100%;
+  display: block;
+}
+.logo {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.logo h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  color: var(--cor-light);
+}
+.menu-container {
+  display: flex;
+  gap: 0 24px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 64px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 32px;
+  text-align: center;
+}
+.nav-bar li a {
+  font-style: none;
+  text-decoration: none;
+  color: var(--cor-light);
+}
+.nav-bar .btn-primary:hover {
+  background: #687b97;
+}
+.nav-bar::after {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .nav-bar li a {
+    display: none;
+  }
+  .nav-bar::after {
+    content: "";
+    display: inline-block;
+    background: url("../icon/Vector.png") no-repeat center;
+    width: 30px;
+    height: 23px;
+  }
+  .menu-container {
+    padding: 10px 15px;
+    gap: 0;
+  }
+  .logo h1 {
+    font-size: 18px;
+  }
+}

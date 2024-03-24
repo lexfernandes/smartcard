@@ -1,0 +1,20 @@
+.cor-black {
+  color: #001927;
+}
+
+.cor-cinza {
+  color: #687b97;
+}
+
+.background-linear {
+  background: linear-gradient(180deg, #00a6ff, #00388b);
+}
+.cor-light {
+  color: #dfeaf1;
+}
+
+:root {
+  --cor-black: #001927;
+  --cor-light: #dfeaf1;
+  --cor-cinza: #687b97;
+}

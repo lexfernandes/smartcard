@@ -1,0 +1,30 @@
+.btn-primary {
+  background: linear-gradient(180deg, #00a6ff, #00388b);
+  border-radius: 15px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: var(--cor-light);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.btn-secundary {
+  border-radius: 15px;
+  border: 2px solid var(--cor-cinza);
+  padding: 10px 20px;
+  color: var(--cor-cinza);
+  font-size: 20px;
+  font-weight: 700;
+}
+.btn-third {
+  background: linear-gradient(180deg, #00a6ff 0%, #00388b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 15px;
+  border: 2px solid #00a6ff;
+  padding: 10px 20px;
+  line-height: 1.1;
+  font-size: 20px;
+  font-weight: 700;
+}

@@ -1,0 +1,55 @@
+main {
+  background-color: var(--cor-light);
+  border-radius: 0 0 100px 100px;
+  box-shadow: 0px 4px 4px 0px rgba(2, 50, 121, 0.15);
+}
+.sobre-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 64px 64px;
+  margin-bottom: 100px;
+}
+.sobre-texto {
+  max-width: 55ch;
+}
+.sobre-texto h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%;
+  color: var(--cor-black);
+  margin-bottom: 32px;
+}
+.sobre-texto p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 100%;
+  color: var(--cor-cinza);
+  margin-bottom: 48px;
+}
+/*NAO ESTÁ FUNCIONANDO COMO MOVER A IMAGEM*/
+.cartao {
+  justify-self: end;
+}
+.cartao img {
+  object-fit: cover;
+  display: block;
+  width: 481px;
+  height: 360px;
+}
+
+@media (max-width: 800px) {
+  .sobre-container {
+    grid-template-columns: 1fr;
+    padding: 30px 30px;
+    margin-bottom: 40px;
+  }
+  .cartao img {
+    display: none;
+  }
+  .sobre-texto a {
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    margin: 0 auto;
+  }
+}
