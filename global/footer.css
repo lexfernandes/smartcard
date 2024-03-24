@@ -50,6 +50,7 @@
     align-items: center;
   }
   .footer-grid {
-    padding: 12px;
+    padding: 30px;
+    justify-content: center;
   }
 }
